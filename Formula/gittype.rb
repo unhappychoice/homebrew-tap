@@ -1,7 +1,7 @@
 class Gittype < Formula
   desc "A typing practice tool using your own code repositories"
   homepage "https://github.com/unhappychoice/gittype"
-  url "https://github.com/unhappychoice/gittype/archive/v0.1.2.tar.gz"
+  url "https://github.com/unhappychoice/gittype/archive/v0.1.3.tar.gz"
   sha256 "" # This will be updated automatically
   license "MIT"
 
