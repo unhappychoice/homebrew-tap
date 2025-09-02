@@ -1,14 +1,29 @@
 class Gittype < Formula
   desc "A typing practice tool using your own code repositories"
   homepage "https://github.com/unhappychoice/gittype"
-  url "https://github.com/unhappychoice/gittype/archive/v0.2.0.tar.gz"
-  sha256 "1a329344bfaee1b0a02cc6b8a82bbcc4c85a2c9625dfba02d89666e35ae2d3d4" # This will be updated automatically
   license "MIT"
 
-  depends_on "rust" => :build
+  on_macos do
+    on_intel do
+      url "https://github.com/unhappychoice/gittype/releases/download/v0.2.0/gittype-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a1b2c3d4e5f6789012345678901234567890123456789012345678901234567890" # This will be updated automatically
+    end
+
+    on_arm do
+      url "https://github.com/unhappychoice/gittype/releases/download/v0.2.0/gittype-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b1c2d3e4f5g6789012345678901234567890123456789012345678901234567890" # This will be updated automatically
+    end
+  end
+
+  on_linux do
+    on_intel do
+      url "https://github.com/unhappychoice/gittype/releases/download/v0.2.0/gittype-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c1d2e3f4g5h6789012345678901234567890123456789012345678901234567890" # This will be updated automatically
+    end
+  end
 
   def install
-    system "cargo", "install", *std_cargo_args
+    bin.install "gittype"
   end
 
   test do
