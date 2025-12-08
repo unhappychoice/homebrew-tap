@@ -5,25 +5,25 @@ class Gitlogue < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.5.0/gitlogue-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "892c153380f9140559182b3bdd8bec289ebe4aa532f0b927a5519440e339bcba"
+      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.6.0/gitlogue-v0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c254d27590413a8456265a1b5c123ee68cc8ab2f31e051295f260e2906e6f81f"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.5.0/gitlogue-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1b0866f334dd21d6a8b4d025296aa7082168dc8e9d100ebfccea18d76f456844"
+      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.6.0/gitlogue-v0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2438493a3dc3e43f5df7adadd795033bc6f0192dcb801dfb6486be40a0222372"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.5.0/gitlogue-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "557f7d4a67e57cd4a2562939f2f01554cd590b13ac2bf7f9782f312d7474e4a7"
+      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.6.0/gitlogue-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "800ea2cd9a33dbdbea83545b4e941255b1929d36601a00be22bab057d46509f0"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.5.0/gitlogue-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "71f283620f9552a6df78b2217c56eafc0199aa1de36bdc0a5f2d9c352e026f89"
+      url "https://github.com/unhappychoice/gitlogue/releases/download/v0.6.0/gitlogue-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d2a89662fdcfb36b29ced22ed1cc98c60d9ed4bdb98ee65775e50b5836fdd905"
     end
   end
 
