@@ -5,25 +5,25 @@ class Gittype < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/unhappychoice/gittype/releases/download/v0.8.0/gittype-v0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "589f4c2123f044f5b90dacebcec3e2b06b6e178b53643069797335a2a94ae046"
+      url "https://github.com/unhappychoice/gittype/releases/download/v0.9.0/gittype-v0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b5c6863b4e62a20968f53368111d5865d1b9900109d87d940a91110cee380efa"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/gittype/releases/download/v0.8.0/gittype-v0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e67a709c4dd51cace22c76adba46a374a53e3497fbf564330f965e03e96fa375"
+      url "https://github.com/unhappychoice/gittype/releases/download/v0.9.0/gittype-v0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f68f37390caa44e7820556c441bc11e144092c3ed1aab809406a7f8a8f9003b4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unhappychoice/gittype/releases/download/v0.8.0/gittype-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1ed8cff5a617e90ef3e9e9e5f1b2144af35bd345544ab708dd7802847ca2c61f"
+      url "https://github.com/unhappychoice/gittype/releases/download/v0.9.0/gittype-v0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "52c79762aa84b09fc50a76a1fdf749cac278a6dc8af5d56fc2c2853f0d9532b3"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/gittype/releases/download/v0.8.0/gittype-v0.8.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "df7b79bcb67189d54b356b03faf8814591d066044388f79e8393146ffbebd2c9"
+      url "https://github.com/unhappychoice/gittype/releases/download/v0.9.0/gittype-v0.9.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a26361973a3bf246b5fc24326822b45d74c248c7a5f8b74c86a3559777b09649"
     end
   end
 
