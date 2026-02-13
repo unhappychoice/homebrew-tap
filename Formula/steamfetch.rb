@@ -24,8 +24,8 @@ class Steamfetch < Formula
 
   def install
     bin.install "steamfetch"
-    (lib/"steamfetch").install "libsteam_api.dylib" if OS.mac?
-    (lib/"steamfetch").install "libsteam_api.so" if OS.linux?
+    bin.install "libsteam_api.dylib" if OS.mac?
+    bin.install "libsteam_api.so" if OS.linux?
   end
 
   test do
