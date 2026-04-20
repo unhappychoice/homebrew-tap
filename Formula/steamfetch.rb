@@ -5,20 +5,20 @@ class Steamfetch < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/unhappychoice/steamfetch/releases/download/v0.5.2/steamfetch-v0.5.2-x86_64-apple-darwin.tar.gz"
-      sha256 "5ef29a2b2b47d1654ee8e6d994cf1d1dad30e0f8c33e5e8fb81938bca698213c"
+      url "https://github.com/unhappychoice/steamfetch/releases/download/v0.5.4/steamfetch-v0.5.4-x86_64-apple-darwin.tar.gz"
+      sha256 "d68c90a741df0cb8aa7d5180a016ef58fc84858077183253a2ab63831811ec60"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/steamfetch/releases/download/v0.5.2/steamfetch-v0.5.2-aarch64-apple-darwin.tar.gz"
-      sha256 "45c0fccfe8d9505921a243b28a72a4bbe6c0d0eb45aa0467842bc2a116d2b0a2"
+      url "https://github.com/unhappychoice/steamfetch/releases/download/v0.5.4/steamfetch-v0.5.4-aarch64-apple-darwin.tar.gz"
+      sha256 "ae76fa4482aa6d54defedff53d1ef7ca95c967c457c03ae29d79ddb1c643ba4e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unhappychoice/steamfetch/releases/download/v0.5.2/steamfetch-v0.5.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d9ca4080f136dd4ce192222699513c8ce00c8c2990c282c7fb32a63f62ae6771"
+      url "https://github.com/unhappychoice/steamfetch/releases/download/v0.5.4/steamfetch-v0.5.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1277298d0aa3f1041b26241a29bce7d8a99aea938fc95737ea449f2fbe3a0f0f"
     end
   end
 
