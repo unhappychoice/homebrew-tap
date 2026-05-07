@@ -5,25 +5,25 @@ class Kobito < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.1/kobito-v0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "c4748b9f9991a5e0e2eebc6cb9a1a7bf1dfe8420e05bc5a8c2e4aef8d2e536b4"
+      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.2/kobito-v0.3.2-x86_64-apple-darwin.tar.gz"
+      sha256 "713dc53f15f6d1d4a07617a5b5ea10690deed9508fbd9037cd8063b999ae2b3c"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.1/kobito-v0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "780a572005a02db69d7662d59f1fd8afd6338967c1ed654d8f50c42a8a610aca"
+      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.2/kobito-v0.3.2-aarch64-apple-darwin.tar.gz"
+      sha256 "6801b1f65053dc02eed68298b946cf3ddd73168dc3cf3ee8116a48e4294c3611"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.1/kobito-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6ec54439ccb27956b1a41c6b465efd7f20ef8dea96a19b6d1c6d961b2df0ec27"
+      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.2/kobito-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f9ac08193900873882c012454af0d391296cc7005b0e50d4d548cee3e71ca33a"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.1/kobito-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b27be2ce2574c23443e6834a8c9265a6c7961c526b8474799f3a79d309edd552"
+      url "https://github.com/unhappychoice/kobito/releases/download/v0.3.2/kobito-v0.3.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b3b88fae13bf8a07c9f8926ca90d172d044d67cd2e53cf0d77e7e2b651c79490"
     end
   end
 
