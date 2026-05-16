@@ -5,25 +5,25 @@ class Splashboard < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/unhappychoice/splashboard/releases/download/v2.2.0/splashboard-v2.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "19e469e67ecba9082642f2b9a540bca1d0e63067baf68b38bce5edff92f0231a"
+      url "https://github.com/unhappychoice/splashboard/releases/download/v2.3.0/splashboard-v2.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "2d38244f85b9cf8b33537e68214b455deaad224fa6366b1e239d5852f1296c8f"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/splashboard/releases/download/v2.2.0/splashboard-v2.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d6337a8ffc26b7995640bea534f659253f04b547417ba08ea9b3d6af982c21e8"
+      url "https://github.com/unhappychoice/splashboard/releases/download/v2.3.0/splashboard-v2.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4ddc8238e8cab1aa9e6f4b278cef3997501e2c5f21fed357fed4b2dc86211639"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/unhappychoice/splashboard/releases/download/v2.2.0/splashboard-v2.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1d5f63a517dc933ab086e025465ae052bc91f52c94eb4521a17c18c00f1d1932"
+      url "https://github.com/unhappychoice/splashboard/releases/download/v2.3.0/splashboard-v2.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9ca27c4cbaf25b69e44eab73f36acde6c975f78972c0a8c9a41dee41b8a2bacf"
     end
 
     on_arm do
-      url "https://github.com/unhappychoice/splashboard/releases/download/v2.2.0/splashboard-v2.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3e5e02e44f011a6e2587d6143b4609121cc1cadab18617baf130040a0b0297a3"
+      url "https://github.com/unhappychoice/splashboard/releases/download/v2.3.0/splashboard-v2.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "090962ed2aebcdd5ca7d4c7c1212b394ad9718ee055f6255fdf813feae2b9cc0"
     end
   end
 
